@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Bootcamp Project RestAPI">
+
+    <test name="Test Case for Amazon">
+        <classes>
+
+            <class name="apitest.amazonapitest"></class>
+
+        </classes>
+    </test>
+
+
+    <test name="Test Case for Flipkart">
+        <classes>
+
+            <class name="apitest.flipkartapitest"></class>
+
+        </classes>
+    </test>
+
+    <test name="Test Case for Snapdeal">
+        <classes>
+
+            <class name="apitest.snapdealapitest"></class>
+
+        </classes>
+    </test>
+
+</suite>
